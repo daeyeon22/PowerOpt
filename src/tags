@@ -1,0 +1,443 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AND	global.h	/^    enum LogicType { AND, AOI, BUFF, DFF, INV, LH, MUX, NAND, NOR, OAI, OR, XNOR, XOR };$/;"	e	enum:PowerOpt::LogicType
+AOI	global.h	/^    enum LogicType { AND, AOI, BUFF, DFF, INV, LH, MUX, NAND, NOR, OAI, OR, XNOR, XOR };$/;"	e	enum:PowerOpt::LogicType
+BOOST	Makefile	/^BOOST = \/home\/tool\/cpplib\/boost\/install\/1.67.0$/;"	m
+BUFF	global.h	/^    enum LogicType { AND, AOI, BUFF, DFF, INV, LH, MUX, NAND, NOR, OAI, OR, XNOR, XOR };$/;"	e	enum:PowerOpt::LogicType
+CC	global.h	/^    enum MacroType { FF, CC };$/;"	e	enum:PowerOpt::MacroType
+CFLAGS	Makefile	/^CFLAGS = -std=c++11 -static-libstdc++ -O1 -fopenmp -fpermissive -DNDEBUG -DIL_STD -Wno-ctor-dtor-privacy $(LIBINCLUDE)$/;"	m
+CLOCK	global.h	/^    enum UseType { CLOCK, SIGNAL, POWER, GROUND };$/;"	e	enum:PowerOpt::UseType
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXOPTS	Makefile	/^CXXOPTS = -m64 -O1 -fopenmp -fPIC -fno-strict-aliasing -fexceptions -fpermissive -DNDEBUG -DIL_STD -Wno-ctor-dtor-privacy $/;"	m
+DEBUG	Makefile	/^DEBUG = -g -gstrict-dwarf -gdwarf-2$/;"	m
+DEBUG	graph.cpp	6;"	d	file:
+DEFLIBS	Makefile	/^DEFLIBS         = -L$(SRCDEF)\/lib -ldef -ldefzlib -lcdef -lcdefzlib$/;"	m
+DFF	global.h	/^    enum LogicType { AND, AOI, BUFF, DFF, INV, LH, MUX, NAND, NOR, OAI, OR, XNOR, XOR };$/;"	e	enum:PowerOpt::LogicType
+DirecType	global.h	/^    enum DirecType { INPUT, OUTPUT, INOUT, UNKNOWN };$/;"	g	namespace:PowerOpt
+EXE	Makefile	/^EXE = powerOpt$/;"	m
+Edge	graph.h	/^    class Edge$/;"	c	namespace:PowerOpt
+FF	global.h	/^    enum MacroType { FF, CC };$/;"	e	enum:PowerOpt::MacroType
+GATE	global.h	/^    enum InstType { PIN, NET, PAD, GATE };$/;"	e	enum:PowerOpt::InstType
+GROUND	global.h	/^    enum UseType { CLOCK, SIGNAL, POWER, GROUND };$/;"	e	enum:PowerOpt::UseType
+Gate	netlist.h	/^    class Gate {$/;"	c	namespace:PowerOpt
+Graph	graph.h	/^        Graph()$/;"	f	class:PowerOpt::Graph
+Graph	graph.h	/^    class Graph$/;"	c	namespace:PowerOpt
+HyperEdge	graph.h	/^    class HyperEdge$/;"	c	namespace:PowerOpt
+INITSTR	global.h	29;"	d
+INOUT	global.h	/^    enum DirecType { INPUT, OUTPUT, INOUT, UNKNOWN };$/;"	e	enum:PowerOpt::DirecType
+INPUT	global.h	/^    enum DirecType { INPUT, OUTPUT, INOUT, UNKNOWN };$/;"	e	enum:PowerOpt::DirecType
+INV	global.h	/^    enum LogicType { AND, AOI, BUFF, DFF, INV, LH, MUX, NAND, NOR, OAI, OR, XNOR, XOR };$/;"	e	enum:PowerOpt::LogicType
+InstType	global.h	/^    enum InstType { PIN, NET, PAD, GATE };$/;"	g	namespace:PowerOpt
+LEFLIBS	Makefile	/^LEFLIBS         = -L$(SRCLEF)\/lib -llef -llefzlib -lclef -lclefzlib$/;"	m
+LH	global.h	/^    enum LogicType { AND, AOI, BUFF, DFF, INV, LH, MUX, NAND, NOR, OAI, OR, XNOR, XOR };$/;"	e	enum:PowerOpt::LogicType
+LIBFORMAT	Makefile	/^LIBFORMAT = static_pic$/;"	m
+LIBGOMP	Makefile	/^LIBGOMP = -L..\/lib\/libgomp\/libgomp.a -static$/;"	m
+LIBINCLUDE	Makefile	/^LIBINCLUDE = -I$(SRCHASH)\/include -I$(SRCDEF)\/include -I$(SRCLEF)\/include -I$(BOOST)\/include $/;"	m
+LINKCFLAGS	Makefile	/^LINKCFLAGS = $(CFLAGS) -static-libstdc++ $(DEFLIBS) $(LEFLIBS) $(LIBGOMP)$/;"	m
+LogicType	global.h	/^    enum LogicType { AND, AOI, BUFF, DFF, INV, LH, MUX, NAND, NOR, OAI, OR, XNOR, XOR };$/;"	g	namespace:PowerOpt
+MUX	global.h	/^    enum LogicType { AND, AOI, BUFF, DFF, INV, LH, MUX, NAND, NOR, OAI, OR, XNOR, XOR };$/;"	e	enum:PowerOpt::LogicType
+Macro	stdlib.h	/^        Macro()$/;"	f	class:PowerOpt::Macro
+Macro	stdlib.h	/^    class Macro {$/;"	c	namespace:PowerOpt
+MacroPin	stdlib.h	/^    class MacroPin$/;"	c	namespace:PowerOpt
+MacroType	global.h	/^    enum MacroType { FF, CC };$/;"	g	namespace:PowerOpt
+NAND	global.h	/^    enum LogicType { AND, AOI, BUFF, DFF, INV, LH, MUX, NAND, NOR, OAI, OR, XNOR, XOR };$/;"	e	enum:PowerOpt::LogicType
+NET	global.h	/^    enum InstType { PIN, NET, PAD, GATE };$/;"	e	enum:PowerOpt::InstType
+NOR	global.h	/^    enum LogicType { AND, AOI, BUFF, DFF, INV, LH, MUX, NAND, NOR, OAI, OR, XNOR, XOR };$/;"	e	enum:PowerOpt::LogicType
+Net	netlist.h	/^    class Net {$/;"	c	namespace:PowerOpt
+Netlist	netlist.h	/^        Netlist()$/;"	f	class:PowerOpt::Netlist
+Netlist	netlist.h	/^    class Netlist {$/;"	c	namespace:PowerOpt
+OAI	global.h	/^    enum LogicType { AND, AOI, BUFF, DFF, INV, LH, MUX, NAND, NOR, OAI, OR, XNOR, XOR };$/;"	e	enum:PowerOpt::LogicType
+OBJECT	Makefile	/^OBJECT = ..\/build$/;"	m
+OR	global.h	/^    enum LogicType { AND, AOI, BUFF, DFF, INV, LH, MUX, NAND, NOR, OAI, OR, XNOR, XOR };$/;"	e	enum:PowerOpt::LogicType
+OUTPUT	global.h	/^    enum DirecType { INPUT, OUTPUT, INOUT, UNKNOWN };$/;"	e	enum:PowerOpt::DirecType
+PAD	global.h	/^    enum InstType { PIN, NET, PAD, GATE };$/;"	e	enum:PowerOpt::InstType
+PIN	global.h	/^    enum InstType { PIN, NET, PAD, GATE };$/;"	e	enum:PowerOpt::InstType
+POWER	global.h	/^    enum UseType { CLOCK, SIGNAL, POWER, GROUND };$/;"	e	enum:PowerOpt::UseType
+Pad	netlist.h	/^    class Pad {$/;"	c	namespace:PowerOpt
+Pin	netlist.h	/^    class Pin {$/;"	c	namespace:PowerOpt
+PowerOpt	global.h	/^namespace PowerOpt$/;"	n
+PowerOpt	graph.h	/^namespace PowerOpt$/;"	n
+PowerOpt	netlist.h	/^namespace PowerOpt {$/;"	n
+PowerOpt	stdlib.h	/^namespace PowerOpt$/;"	n
+SIGNAL	global.h	/^    enum UseType { CLOCK, SIGNAL, POWER, GROUND };$/;"	e	enum:PowerOpt::UseType
+SRC	Makefile	/^SRC = 	$(OBJECT)\/defRead.o \\$/;"	m
+SRCDEF	Makefile	/^SRCDEF 	= ..\/lib\/def\/5.8-p027$/;"	m
+SRCHASH	Makefile	/^SRCHASH = \/home\/tool\/cpplib\/sparsehash\/install\/2.0.3$/;"	m
+SRCLEF	Makefile	/^SRCLEF 	= ..\/lib\/lef\/5.8-p027$/;"	m
+SYSTEM	Makefile	/^SYSTEM = x86-64_linux$/;"	m
+StdCellLib	stdlib.h	/^        StdCellLib()$/;"	f	class:PowerOpt::StdCellLib
+StdCellLib	stdlib.h	/^    class StdCellLib {$/;"	c	namespace:PowerOpt
+UNKNOWN	global.h	/^    enum DirecType { INPUT, OUTPUT, INOUT, UNKNOWN };$/;"	e	enum:PowerOpt::DirecType
+UseType	global.h	/^    enum UseType { CLOCK, SIGNAL, POWER, GROUND };$/;"	g	namespace:PowerOpt
+Vertex	graph.h	/^    class Vertex$/;"	c	namespace:PowerOpt
+XNOR	global.h	/^    enum LogicType { AND, AOI, BUFF, DFF, INV, LH, MUX, NAND, NOR, OAI, OR, XNOR, XOR };$/;"	e	enum:PowerOpt::LogicType
+XOR	global.h	/^    enum LogicType { AND, AOI, BUFF, DFF, INV, LH, MUX, NAND, NOR, OAI, OR, XNOR, XOR };$/;"	e	enum:PowerOpt::LogicType
+__GLOBAL__	global.h	2;"	d
+__GRAPH__	graph.h	3;"	d
+__LEFDEFIO__	stdlib.h	9;"	d
+__NETLIST__	netlist.h	2;"	d
+addEdge	graph.cpp	/^void HyperEdge::addEdge(Edge* e)$/;"	f	class:HyperEdge
+addInEdge	graph.cpp	/^void Vertex::addInEdge(Edge* e)$/;"	f	class:Vertex
+addInHyperEdge	graph.cpp	/^void Vertex::addInHyperEdge(HyperEdge* h)$/;"	f	class:Vertex
+addMacroPin	stdlib.h	/^        void addMacroPin(MacroPin* p){ pins.push_back(p); }$/;"	f	class:PowerOpt::Macro
+addOutEdge	graph.cpp	/^void Vertex::addOutEdge(Edge* e)$/;"	f	class:Vertex
+addOutHyperEdge	graph.cpp	/^void Vertex::addOutHyperEdge(HyperEdge* h)$/;"	f	class:Vertex
+addPin	netlist.h	/^        void addPin(Pin* p) { pins.push_back(p); }$/;"	f	class:PowerOpt::Gate
+addTerm	netlist.h	/^        void addTerm(Pin* p) { terms.push_back(p); }$/;"	f	class:PowerOpt::Net
+address	defRead.cpp	/^char* address(const char* in) {$/;"	f
+an	defRead.cpp	/^int an(defrCallbackType_e c, const char* h, defiUserData ud) {$/;"	f
+antennaCB	lefRead.cpp	/^int antennaCB(lefrCallbackType_e c, double value, lefiUserData) {$/;"	f
+arrayBeginCB	lefRead.cpp	/^int arrayBeginCB(lefrCallbackType_e c, const char* name, lefiUserData) {$/;"	f
+arrayCB	lefRead.cpp	/^int arrayCB(lefrCallbackType_e c, lefiArray* a, lefiUserData) {$/;"	f
+arrayEndCB	lefRead.cpp	/^int arrayEndCB(lefrCallbackType_e c, const char* name, lefiUserData) {$/;"	f
+bbn	defRead.cpp	/^int bbn(defrCallbackType_e c, const char* h, defiUserData ud) {$/;"	f
+begOperand	defRead.cpp	/^int begOperand;    \/\/ to keep track for constraint, to print - as the 1st char$/;"	v
+busBitCharsCB	lefRead.cpp	/^int busBitCharsCB(lefrCallbackType_e c, const char* busBit, lefiUserData)$/;"	f
+caseSensCB	lefRead.cpp	/^int caseSensCB(lefrCallbackType_e c, int caseSense, lefiUserData) {$/;"	f
+casesens	defRead.cpp	/^int casesens(defrCallbackType_e c, int d, defiUserData ud) {$/;"	f
+ccr1131444	defRead.cpp	/^static int ccr1131444 = 0;$/;"	v	file:
+checkType	defRead.cpp	/^void checkType(defrCallbackType_e c) {$/;"	f
+checkType	lefRead.cpp	/^void checkType(lefrCallbackType_e c) {$/;"	f
+clearanceCB	lefRead.cpp	/^int clearanceCB(lefrCallbackType_e c, const char* name, lefiUserData) {$/;"	f
+cls	defRead.cpp	/^int cls(defrCallbackType_e c, void* cl, defiUserData ud) {$/;"	f
+cmd_option_exists	main.cpp	/^bool cmd_option_exists(char** begin, char** end, const std::string& option)$/;"	f
+compMSL	defRead.cpp	/^int compMSL(defrCallbackType_e c, defiComponentMaskShiftLayer* co, defiUserData ud) {$/;"	f
+compf	defRead.cpp	/^int compf(defrCallbackType_e c, defiComponent* co, defiUserData ud) {$/;"	f
+constraint	defRead.cpp	/^int constraint(defrCallbackType_e c, defiAssertion* a, defiUserData ud) {$/;"	f
+constraintst	defRead.cpp	/^int constraintst(defrCallbackType_e c, int num, defiUserData ud) {$/;"	f
+correctionCB	lefRead.cpp	/^int correctionCB(lefrCallbackType_e c, lefiCorrectionTable *, lefiUserData) {$/;"	f
+createEdge	graph.cpp	/^Edge* Graph::createEdge(Vertex* v1, Vertex* v2)$/;"	f	class:Graph
+createEdge	graph.cpp	/^Edge* Graph::createEdge(int v1, int v2)$/;"	f	class:Graph
+createGate	netlist.cpp	/^Gate* Netlist::createGate(const char* n)$/;"	f	class:Netlist
+createGate	netlist.cpp	/^Gate* Netlist::createGate(string n)$/;"	f	class:Netlist
+createGlobalGraph	graph.cpp	/^Graph* PowerOpt::createGlobalGraph()$/;"	f	class:PowerOpt
+createHyperEdge	graph.cpp	/^HyperEdge* Graph::createHyperEdge(vector<int> terms, vector<InstType> types)$/;"	f	class:Graph
+createMacro	stdlib.cpp	/^Macro* StdCellLib::createMacro(const char* name)$/;"	f	class:StdCellLib
+createMacro	stdlib.cpp	/^Macro* StdCellLib::createMacro(string name)$/;"	f	class:StdCellLib
+createMacroPin	stdlib.cpp	/^MacroPin* Macro::createMacroPin(const char* n)$/;"	f	class:Macro
+createMacroPin	stdlib.cpp	/^MacroPin* Macro::createMacroPin(string n)$/;"	f	class:Macro
+createNet	netlist.cpp	/^Net* Netlist::createNet(const char* n)$/;"	f	class:Netlist
+createNet	netlist.cpp	/^Net* Netlist::createNet(string n)$/;"	f	class:Netlist
+createPad	netlist.cpp	/^Pad* Netlist::createPad(const char* n)$/;"	f	class:Netlist
+createPad	netlist.cpp	/^Pad* Netlist::createPad(string n)$/;"	f	class:Netlist
+createPin	netlist.cpp	/^Pin* Netlist::createPin(const char* n)$/;"	f	class:Netlist
+createPin	netlist.cpp	/^Pin* Netlist::createPin(string n)$/;"	f	class:Netlist
+createVertex	graph.cpp	/^Vertex* Graph::createVertex(int instId, InstType type)$/;"	f	class:Graph
+cs	defRead.cpp	/^int cs(defrCallbackType_e c, int num, defiUserData ud) {$/;"	f
+curVer	defRead.cpp	/^static double curVer = 0;$/;"	v	file:
+dataError	defRead.cpp	/^static void dataError() {$/;"	f	file:
+dataError	lefRead.cpp	/^static void dataError() {$/;"	f	file:
+defaultName	defRead.cpp	/^static char defaultName[64];$/;"	v	file:
+defaultName	lefRead.cpp	/^static char defaultName[128];$/;"	v	file:
+defaultOut	defRead.cpp	/^static char defaultOut[64];$/;"	v	file:
+defaultOut	lefRead.cpp	/^static char defaultOut[128];$/;"	v	file:
+densityCB	lefRead.cpp	/^int densityCB(lefrCallbackType_e c, lefiDensity* density,$/;"	f
+designName	netlist.h	/^        string designName;$/;"	m	class:PowerOpt::Netlist
+dielectricCB	lefRead.cpp	/^int dielectricCB(lefrCallbackType_e c, double dielectric, lefiUserData) {$/;"	f
+direction	netlist.h	/^        DirecType direction;$/;"	m	class:PowerOpt::Pin
+direction	stdlib.h	/^        DirecType direction;$/;"	m	class:PowerOpt::MacroPin
+dividerCB	lefRead.cpp	/^int dividerCB(lefrCallbackType_e c, const char* name, lefiUserData) {$/;"	f
+dn	defRead.cpp	/^int dn(defrCallbackType_e c, const char* h, defiUserData ud) {$/;"	f
+dname	defRead.cpp	/^int dname(defrCallbackType_e c, const char* str, defiUserData ud) {$/;"	f
+done	defRead.cpp	/^int done(defrCallbackType_e c, void*, defiUserData ud) {$/;"	f
+doneCB	lefRead.cpp	/^int doneCB(lefrCallbackType_e c, void*, lefiUserData) {$/;"	f
+edge1CB	lefRead.cpp	/^int edge1CB(lefrCallbackType_e c, double name, lefiUserData) {$/;"	f
+edge2CB	lefRead.cpp	/^int edge2CB(lefrCallbackType_e c, double name, lefiUserData) {$/;"	f
+edgeScaleCB	lefRead.cpp	/^int edgeScaleCB(lefrCallbackType_e c, double name, lefiUserData) {$/;"	f
+edges	graph.h	/^        vector<Edge*> edges;$/;"	m	class:PowerOpt::Graph
+edges	graph.h	/^        vector<Edge*> edges;$/;"	m	class:PowerOpt::HyperEdge
+endfunc	defRead.cpp	/^int endfunc(defrCallbackType_e c, void*, defiUserData ud) {$/;"	f
+errorCB	lefRead.cpp	/^void errorCB(const char* msg) {$/;"	f
+ext	defRead.cpp	/^int ext(defrCallbackType_e t, const char* c, defiUserData ud) {$/;"	f
+extension	defRead.cpp	/^int extension(defrCallbackType_e c, const char* extsn, defiUserData ud) {$/;"	f
+extensionCB	lefRead.cpp	/^int extensionCB(lefrCallbackType_e c, const char* extsn, lefiUserData) {$/;"	f
+fixedMaskCB	lefRead.cpp	/^int fixedMaskCB(lefrCallbackType_e c, int fixedMask, lefiUserData) {$/;"	f
+fn	defRead.cpp	/^int fn(defrCallbackType_e c, const char* h, defiUserData ud) {$/;"	f
+fout	defRead.cpp	/^static FILE* fout; \/\/--> move to circuit.h$/;"	v	file:
+fout	lefRead.cpp	/^static FILE* fout; \/\/--> move to circuit.h$/;"	v	file:
+freeCB	defRead.cpp	/^static void freeCB(void* name) {$/;"	f	file:
+freeCB	lefRead.cpp	/^static void freeCB(void* name) {$/;"	f	file:
+gate	netlist.h	/^        Gate* gate;     \/\/ if type of master isn't gate, gate == nullptr$/;"	m	class:PowerOpt::Pin
+gate2id	netlist.h	/^        HashMap<string,int> gate2id;$/;"	m	class:PowerOpt::Netlist
+gateBegin	netlist.h	/^        vector<Gate*>::iterator gateBegin() { return gates.begin(); }$/;"	f	class:PowerOpt::Netlist
+gateEnd	netlist.h	/^        vector<Gate*>::iterator gateEnd() { return gates.end(); }$/;"	f	class:PowerOpt::Netlist
+gates	netlist.h	/^        vector<Gate*> gates;$/;"	m	class:PowerOpt::Netlist
+getDesignName	netlist.h	/^        string getDesignName() { return designName; }$/;"	f	class:PowerOpt::Netlist
+getDirection	netlist.h	/^        DirecType getDirection() { return direction; }$/;"	f	class:PowerOpt::Pin
+getDirection	netlist.h	/^        DirecType getDirection() { return pin->getDirection(); }$/;"	f	class:PowerOpt::Pad
+getDirection	stdlib.h	/^        DirecType getDirection() { return direction; }$/;"	f	class:PowerOpt::MacroPin
+getEdge	graph.h	/^        Edge* getEdge(int v1, int v2) { return edges[pair2edge[pair_t(v1,v2)]]; }$/;"	f	class:PowerOpt::Graph
+getFullName	netlist.h	/^        string getFullName() { return name; }$/;"	f	class:PowerOpt::Pin
+getGate	netlist.h	/^        Gate* getGate(const char* n) { return gates[gate2id[n]]; }$/;"	f	class:PowerOpt::Netlist
+getGate	netlist.h	/^        Gate* getGate(int i) { return gates[i]; }$/;"	f	class:PowerOpt::Netlist
+getGate	netlist.h	/^        Gate* getGate(string n) { return gates[gate2id[n]]; }$/;"	f	class:PowerOpt::Netlist
+getGateName	netlist.h	/^        string getGateName() { return name; }$/;"	f	class:PowerOpt::Gate
+getId	graph.h	/^        int getId() { return id; }$/;"	f	class:PowerOpt::Edge
+getId	graph.h	/^        int getId() { return id; }$/;"	f	class:PowerOpt::Graph
+getId	graph.h	/^        int getId() { return id; }$/;"	f	class:PowerOpt::HyperEdge
+getId	graph.h	/^        int getId() { return id; }$/;"	f	class:PowerOpt::Vertex
+getId	netlist.h	/^        int getId() { return id; }$/;"	f	class:PowerOpt::Gate
+getId	netlist.h	/^        int getId() { return id; }$/;"	f	class:PowerOpt::Net
+getId	netlist.h	/^        int getId() { return id; }$/;"	f	class:PowerOpt::Pad
+getId	netlist.h	/^        int getId() { return id; }$/;"	f	class:PowerOpt::Pin
+getId	stdlib.h	/^        int getId() { return id; }$/;"	f	class:PowerOpt::Macro
+getId	stdlib.h	/^        int getId() { return id; }$/;"	f	class:PowerOpt::MacroPin
+getInstId	graph.h	/^        int getInstId(int vertexId) { return vertex2inst[vertexId]; }$/;"	f	class:PowerOpt::Graph
+getInstType	graph.h	/^        InstType getInstType(int vertexId) { return vertex2type[vertexId]; }$/;"	f	class:PowerOpt::Graph
+getIsFF	stdlib.h	/^        bool getIsFF(){ return type == MacroType::FF; }$/;"	f	class:PowerOpt::Macro
+getLogicType	netlist.h	/^        LogicType getLogicType(){ return logic; }$/;"	f	class:PowerOpt::Gate
+getMacro	netlist.h	/^        Macro* getMacro() { return macro; }$/;"	f	class:PowerOpt::Gate
+getMacro	stdlib.h	/^        Macro* getMacro(const char* n) { return macros[macro2id[n]]; } $/;"	f	class:PowerOpt::StdCellLib
+getMacro	stdlib.h	/^        Macro* getMacro(int i) { return macros[i]; }$/;"	f	class:PowerOpt::StdCellLib
+getMacro	stdlib.h	/^        Macro* getMacro(string n) { return macros[macro2id[n]]; }$/;"	f	class:PowerOpt::StdCellLib
+getMacroName	netlist.h	/^        string getMacroName() { return macro->getName(); }$/;"	f	class:PowerOpt::Gate
+getMacroPin	stdlib.h	/^        MacroPin* getMacroPin(const char* n) { return pins[pin2id[n]]; }$/;"	f	class:PowerOpt::Macro
+getMacroPin	stdlib.h	/^        MacroPin* getMacroPin(string n) { return pins[pin2id[n]]; }$/;"	f	class:PowerOpt::Macro
+getMasterGate	netlist.h	/^        Gate* getMasterGate() { return gate; }$/;"	f	class:PowerOpt::Pin
+getMasterPad	netlist.h	/^        Pad* getMasterPad() { return pad; }$/;"	f	class:PowerOpt::Pin
+getMasterType	netlist.h	/^        InstType getMasterType() { return mtype; }$/;"	f	class:PowerOpt::Pin
+getName	netlist.h	/^        string getName() { return name; }$/;"	f	class:PowerOpt::Net
+getName	netlist.h	/^        string getName() { return name; }$/;"	f	class:PowerOpt::Pad
+getName	stdlib.h	/^        string getName() { return name; }$/;"	f	class:PowerOpt::Macro
+getName	stdlib.h	/^        string getName() { return name; }$/;"	f	class:PowerOpt::MacroPin
+getNet	netlist.h	/^        Net* getNet() { return net; }$/;"	f	class:PowerOpt::Pin
+getNet	netlist.h	/^        Net* getNet(const char* n) { return nets[net2id[n]]; }$/;"	f	class:PowerOpt::Netlist
+getNet	netlist.h	/^        Net* getNet(int i) { return nets[i]; }$/;"	f	class:PowerOpt::Netlist
+getNet	netlist.h	/^        Net* getNet(string n) { return nets[net2id[n]]; }$/;"	f	class:PowerOpt::Netlist
+getPad	netlist.h	/^        Pad* getPad(const char* n) { return pads[pad2id[n]]; }$/;"	f	class:PowerOpt::Netlist
+getPad	netlist.h	/^        Pad* getPad(int i) { return pads[i]; }$/;"	f	class:PowerOpt::Netlist
+getPad	netlist.h	/^        Pad* getPad(string n) { return pads[pad2id[n]]; }$/;"	f	class:PowerOpt::Netlist
+getPin	netlist.h	/^        Pin* getPin() { return pin; }$/;"	f	class:PowerOpt::Pad
+getPin	netlist.h	/^        Pin* getPin(const char* name) { return pins[pin2id[name]]; }$/;"	f	class:PowerOpt::Netlist
+getPin	netlist.h	/^        Pin* getPin(int i) { return pins[i]; }$/;"	f	class:PowerOpt::Netlist
+getPin	netlist.h	/^        Pin* getPin(string name) { return pins[pin2id[name]]; } $/;"	f	class:PowerOpt::Netlist
+getPortName	netlist.h	/^        string getPortName() { return portName; }$/;"	f	class:PowerOpt::Pin
+getSink	graph.h	/^        Vertex* getSink() { return sink; }$/;"	f	class:PowerOpt::Edge
+getSinks	graph.h	/^        vector<Vertex*> getSinks() { return sinks; }$/;"	f	class:PowerOpt::HyperEdge
+getSinks	netlist.cpp	/^vector<Pin*> Net::getSinks()$/;"	f	class:Net
+getSource	graph.h	/^        Vertex* getSource() { return source; }$/;"	f	class:PowerOpt::Edge
+getSource	graph.h	/^        Vertex* getSource() { return source; }$/;"	f	class:PowerOpt::HyperEdge
+getSource	netlist.cpp	/^Pin* Net::getSource()$/;"	f	class:Net
+getTerms	netlist.cpp	/^vector<Pin*> Net::getTerms()$/;"	f	class:Net
+getType	stdlib.h	/^        MacroType getType() { return type; };$/;"	f	class:PowerOpt::Macro
+getUseType	netlist.h	/^        UseType getUseType() { return use; }$/;"	f	class:PowerOpt::Net
+getUseType	netlist.h	/^        UseType getUseType() { return use; }$/;"	f	class:PowerOpt::Pin
+getUseType	stdlib.h	/^        UseType getUseType() { return use; }$/;"	f	class:PowerOpt::MacroPin
+getVertex	graph.h	/^        Vertex* getVertex(int vertexId) { return vertices[vertexId]; }$/;"	f	class:PowerOpt::Graph
+getVertexId	graph.h	/^        int getVertexId(int instId, InstType type) { return inst2vertex[pair_t(instId, type)]; }$/;"	f	class:PowerOpt::Graph
+get_cmd_option	main.cpp	/^char* get_cmd_option(char ** begin, char ** end, const std::string & option)$/;"	f
+get_orient	defRead.cpp	/^void get_orient(string orient, int &rotate, bool& flip)$/;"	f
+hist	defRead.cpp	/^int hist(defrCallbackType_e c, const char* h, defiUserData ud) {$/;"	f
+hyperEdges	graph.h	/^        vector<HyperEdge*> hyperEdges;$/;"	m	class:PowerOpt::Graph
+id	graph.h	/^        int id;$/;"	m	class:PowerOpt::Edge
+id	graph.h	/^        int id;$/;"	m	class:PowerOpt::Graph
+id	graph.h	/^        int id;$/;"	m	class:PowerOpt::HyperEdge
+id	graph.h	/^        int id;$/;"	m	class:PowerOpt::Vertex
+id	netlist.h	/^        int id;$/;"	m	class:PowerOpt::Gate
+id	netlist.h	/^        int id;$/;"	m	class:PowerOpt::Net
+id	netlist.h	/^        int id;$/;"	m	class:PowerOpt::Pad
+id	netlist.h	/^        int id;$/;"	m	class:PowerOpt::Pin
+id	stdlib.h	/^        int id;$/;"	m	class:PowerOpt::Macro
+id	stdlib.h	/^        int id;$/;"	m	class:PowerOpt::MacroPin
+ignoreRowNames	defRead.cpp	/^static int ignoreRowNames = 0;$/;"	v	file:
+ignoreViaNames	defRead.cpp	/^static int ignoreViaNames = 0;$/;"	v	file:
+inEdgeBegin	graph.h	/^        vector<Edge*>::iterator inEdgeBegin() { return inEdges.begin(); }$/;"	f	class:PowerOpt::Vertex
+inEdgeEnd	graph.h	/^        vector<Edge*>::iterator inEdgeEnd() { return inEdges.end(); }$/;"	f	class:PowerOpt::Vertex
+inEdges	graph.h	/^        vector<Edge*> inEdges;$/;"	m	class:PowerOpt::Vertex
+inHyperEdgeBegin	graph.h	/^        vector<HyperEdge*>::iterator inHyperEdgeBegin() { return inHyperEdges.begin(); }$/;"	f	class:PowerOpt::Vertex
+inHyperEdgeEnd	graph.h	/^        vector<HyperEdge*>::iterator inHyperEdgeEnd() { return inHyperEdges.end(); }$/;"	f	class:PowerOpt::Vertex
+inHyperEdges	graph.h	/^        vector<HyperEdge*> inHyperEdges;$/;"	m	class:PowerOpt::Vertex
+inst	netlist.h	/^        static Netlist* inst;$/;"	m	class:PowerOpt::Netlist
+inst	stdlib.h	/^        static StdCellLib* inst;$/;"	m	class:PowerOpt::StdCellLib
+inst2vertex	graph.h	/^        map<pair_t, int> inst2vertex;$/;"	m	class:PowerOpt::Graph
+instance	netlist.cpp	/^Netlist* Netlist::instance()$/;"	f	class:Netlist
+instance	stdlib.cpp	/^StdCellLib* StdCellLib::instance()$/;"	f	class:StdCellLib
+irdropBeginCB	lefRead.cpp	/^int irdropBeginCB(lefrCallbackType_e c, void*, lefiUserData){$/;"	f
+irdropCB	lefRead.cpp	/^int irdropCB(lefrCallbackType_e c, lefiIRDrop* irdrop, lefiUserData) {$/;"	f
+irdropEndCB	lefRead.cpp	/^int irdropEndCB(lefrCallbackType_e c, void*, lefiUserData){$/;"	f
+isProp	defRead.cpp	/^int isProp = 0;    \/\/ for PROPERTYDEFINITIONS$/;"	v
+isSessionles	lefRead.cpp	/^int isSessionles = 0;$/;"	v
+isSessionless	defRead.cpp	/^static int isSessionless = 0;$/;"	v	file:
+isSumSet	defRead.cpp	/^int isSumSet;      \/\/ to keep track if within SUM$/;"	v
+layerCB	lefRead.cpp	/^int layerCB(lefrCallbackType_e c, lefiLayer* _layer, lefiUserData) {$/;"	f
+lefSpacing	lefRead.cpp	/^void lefSpacing(lefiSpacing* spacing) {$/;"	f
+lefVia	lefRead.cpp	/^void lefVia(lefiVia *via) {$/;"	f
+lefViaRuleLayer	lefRead.cpp	/^void lefViaRuleLayer(lefiViaRuleLayer* vLayer) {$/;"	f
+lineNumberCB	defRead.cpp	/^void lineNumberCB(long long lineNo) {$/;"	f
+lineNumberCB	lefRead.cpp	/^void lineNumberCB(int lineNo) {$/;"	f
+logic	netlist.h	/^        LogicType logic;$/;"	m	class:PowerOpt::Gate
+macro	netlist.h	/^        Macro* macro;$/;"	m	class:PowerOpt::Gate
+macro2id	stdlib.h	/^        HashMap<string,int> macro2id;$/;"	m	class:PowerOpt::StdCellLib
+macroBeginCB	lefRead.cpp	/^int macroBeginCB(lefrCallbackType_e c, const char* macroName, lefiUserData) {$/;"	f
+macroCB	lefRead.cpp	/^int macroCB(lefrCallbackType_e c, lefiMacro* _macro, lefiUserData) {$/;"	f
+macroClassTypeCB	lefRead.cpp	/^int macroClassTypeCB(lefrCallbackType_e c, const char* macroClassType,$/;"	f
+macroEndCB	lefRead.cpp	/^int macroEndCB(lefrCallbackType_e c, const char* macroName, lefiUserData) {$/;"	f
+macroFixedMaskCB	lefRead.cpp	/^int macroFixedMaskCB(lefrCallbackType_e c, int, $/;"	f
+macroOriginCB	lefRead.cpp	/^int macroOriginCB(lefrCallbackType_e c, lefiNum,$/;"	f
+macroSizeCB	lefRead.cpp	/^int macroSizeCB(lefrCallbackType_e c, lefiNum,$/;"	f
+macros	stdlib.h	/^        vector<Macro*> macros;$/;"	m	class:PowerOpt::StdCellLib
+main	main.cpp	/^int main(int argc, char** argv)$/;"	f
+mallocCB	defRead.cpp	/^void* mallocCB(size_t size) {$/;"	f
+mallocCB	lefRead.cpp	/^void* mallocCB(int size) {$/;"	f
+manufacturingCB	lefRead.cpp	/^int manufacturingCB(lefrCallbackType_e c, double num, lefiUserData) {$/;"	f
+maxStackViaCB	lefRead.cpp	/^int maxStackViaCB(lefrCallbackType_e c, lefiMaxStackVia* maxStack,$/;"	f
+minFeatureCB	lefRead.cpp	/^int minFeatureCB(lefrCallbackType_e c, lefiMinFeature* min, lefiUserData) {$/;"	f
+mtype	netlist.h	/^        InstType mtype;$/;"	m	class:PowerOpt::Pin
+myLogFunction	defRead.cpp	/^void myLogFunction(const char* errMsg){$/;"	f
+myWarningLogFunction	defRead.cpp	/^void myWarningLogFunction(const char* errMsg){$/;"	f
+name	netlist.h	/^        string name;$/;"	m	class:PowerOpt::Gate
+name	netlist.h	/^        string name;$/;"	m	class:PowerOpt::Net
+name	netlist.h	/^        string name;$/;"	m	class:PowerOpt::Pad
+name	netlist.h	/^        string name;$/;"	m	class:PowerOpt::Pin
+name	stdlib.h	/^        string name ;$/;"	m	class:PowerOpt::Macro
+name	stdlib.h	/^        string name;$/;"	m	class:PowerOpt::MacroPin
+ndr	defRead.cpp	/^int ndr(defrCallbackType_e c, defiNonDefault* nd, defiUserData ud) {$/;"	f
+net	netlist.h	/^        Net* net;       \/\/ if unconnected, then net == nullptr$/;"	m	class:PowerOpt::Pin
+net2id	netlist.h	/^        HashMap<string,int> net2id;$/;"	m	class:PowerOpt::Netlist
+netBegin	netlist.h	/^        vector<Net*>::iterator netBegin() { return nets.begin(); }$/;"	f	class:PowerOpt::Netlist
+netEnd	netlist.h	/^        vector<Net*>::iterator netEnd() { return nets.end(); }$/;"	f	class:PowerOpt::Netlist
+netNamef	defRead.cpp	/^int netNamef(defrCallbackType_e c, const char* netName, defiUserData ud) {$/;"	f
+netf	defRead.cpp	/^int netf(defrCallbackType_e c, defiNet* _net, defiUserData ud) {$/;"	f
+netlist	global.h	26;"	d
+netpath	defRead.cpp	/^int netpath(defrCallbackType_e, defiNet*, defiUserData) {$/;"	f
+nets	netlist.h	/^        vector<Net*> nets;$/;"	m	class:PowerOpt::Netlist
+noWireExtCB	lefRead.cpp	/^int noWireExtCB(lefrCallbackType_e c, const char* name, lefiUserData) {$/;"	f
+noiseMarCB	lefRead.cpp	/^int noiseMarCB(lefrCallbackType_e c, lefiNoiseMargin *, lefiUserData) {$/;"	f
+noiseTableCB	lefRead.cpp	/^int noiseTableCB(lefrCallbackType_e c, lefiNoiseTable *, lefiUserData) {$/;"	f
+nonDefaultCB	lefRead.cpp	/^int nonDefaultCB(lefrCallbackType_e c, lefiNonDefault* def, lefiUserData) {$/;"	f
+nondefRulef	defRead.cpp	/^int nondefRulef(defrCallbackType_e c, const char* ruleName, defiUserData ud) {$/;"	f
+numObjs	defRead.cpp	/^int numObjs;$/;"	v
+obstructionCB	lefRead.cpp	/^int obstructionCB(lefrCallbackType_e c, lefiObstruction* obs,$/;"	f
+operand	defRead.cpp	/^void operand(defrCallbackType_e c, defiAssertion* a, int ind) {$/;"	f
+operator ==	graph.h	/^        bool operator == (Edge* e) const { return id == e->getId(); }$/;"	f	class:PowerOpt::Edge
+operator ==	graph.h	/^        bool operator == (HyperEdge* h) const { return id == h->getId(); }$/;"	f	class:PowerOpt::HyperEdge
+operator ==	graph.h	/^        bool operator == (Vertex* v) const { return id == v->getId(); }$/;"	f	class:PowerOpt::Vertex
+orientStr	defRead.cpp	/^static char* orientStr(int orient) {$/;"	f	file:
+orientStr	lefRead.cpp	/^static char* orientStr(int orient) {$/;"	f	file:
+outEdgeBegin	graph.h	/^        vector<Edge*>::iterator outEdgeBegin() { return outEdges.begin(); }$/;"	f	class:PowerOpt::Vertex
+outEdgeEnd	graph.h	/^        vector<Edge*>::iterator outEdgeEnd() { return outEdges.end(); }$/;"	f	class:PowerOpt::Vertex
+outEdges	graph.h	/^        vector<Edge*> outEdges;$/;"	m	class:PowerOpt::Vertex
+outHyperEdgeBegin	graph.h	/^        vector<HyperEdge*>::iterator outHyperEdgeBegin() { return outHyperEdges.begin(); }$/;"	f	class:PowerOpt::Vertex
+outHyperEdgeEnd	graph.h	/^        vector<HyperEdge*>::iterator outHyperEdgeEnd() { return outHyperEdges.end(); }$/;"	f	class:PowerOpt::Vertex
+outHyperEdges	graph.h	/^        vector<HyperEdge*> outHyperEdges;$/;"	m	class:PowerOpt::Vertex
+pad	netlist.h	/^        Pad* pad;       \/\/ if type of master isn't pad, pad == nullptr$/;"	m	class:PowerOpt::Pin
+pad2id	netlist.h	/^        HashMap<string,int> pad2id;$/;"	m	class:PowerOpt::Netlist
+padBegin	netlist.h	/^        vector<Pad*>::iterator padBegin() { return pads.begin(); }$/;"	f	class:PowerOpt::Netlist
+padEnd	netlist.h	/^        vector<Pad*>::iterator padEnd() { return pads.end(); }$/;"	f	class:PowerOpt::Netlist
+pads	netlist.h	/^        vector<Pad*> pads;$/;"	m	class:PowerOpt::Netlist
+pair2edge	graph.h	/^        map<pair_t, int> pair2edge;$/;"	m	class:PowerOpt::Graph
+pair_t	graph.h	/^    typedef pair<int,int> pair_t;$/;"	t	namespace:PowerOpt
+parse65nm	lefRead.cpp	/^int parse65nm = 0;$/;"	v
+parseLef58Type	lefRead.cpp	/^int parseLef58Type = 0;$/;"	v
+pin	netlist.h	/^        Pin* pin;$/;"	m	class:PowerOpt::Pad
+pin2id	netlist.h	/^        HashMap<string,int> pin2id;$/;"	m	class:PowerOpt::Netlist
+pin2id	stdlib.h	/^        HashMap<string,int> pin2id;$/;"	m	class:PowerOpt::Macro
+pinBegin	netlist.h	/^        vector<Pin*>::iterator pinBegin() { return pins.begin(); }$/;"	f	class:PowerOpt::Netlist
+pinCB	lefRead.cpp	/^int pinCB(lefrCallbackType_e c, lefiPin* _pin, lefiUserData) {$/;"	f
+pinEnd	netlist.h	/^        vector<Pin*>::iterator pinEnd() { return pins.end(); }$/;"	f	class:PowerOpt::Netlist
+pins	netlist.h	/^        vector<Pin*> pins;$/;"	m	class:PowerOpt::Gate
+pins	netlist.h	/^        vector<Pin*> pins;$/;"	m	class:PowerOpt::Netlist
+pins	stdlib.h	/^        vector<MacroPin*> pins;$/;"	m	class:PowerOpt::Macro
+portName	netlist.h	/^        string portName;$/;"	m	class:PowerOpt::Pin
+print	graph.cpp	/^void Graph::print()$/;"	f	class:Graph
+printErrMsg	global.cpp	/^void PowerOpt::printErrMsg(string msg, bool term)$/;"	f	class:PowerOpt
+printWarnMsg	global.cpp	/^void PowerOpt::printWarnMsg(string msg)$/;"	f	class:PowerOpt
+printWarning	defRead.cpp	/^static void printWarning(const char *str)$/;"	f	file:
+printWarning	lefRead.cpp	/^static void printWarning(const char *str)$/;"	f	file:
+printing	lefRead.cpp	/^int printing = 0;     \/\/ Printing the output.$/;"	v
+prop	defRead.cpp	/^int prop(defrCallbackType_e c, defiProp* p, defiUserData ud) {$/;"	f
+propDefBeginCB	lefRead.cpp	/^int propDefBeginCB(lefrCallbackType_e c, void*, lefiUserData) {$/;"	f
+propDefCB	lefRead.cpp	/^int propDefCB(lefrCallbackType_e c, lefiProp* prop, lefiUserData) {$/;"	f
+propDefEndCB	lefRead.cpp	/^int propDefEndCB(lefrCallbackType_e c, void*, lefiUserData) {$/;"	f
+propend	defRead.cpp	/^int propend(defrCallbackType_e c, void*, defiUserData) {$/;"	f
+propstart	defRead.cpp	/^int propstart(defrCallbackType_e c, void*, defiUserData) {$/;"	f
+prtGeometry	lefRead.cpp	/^void prtGeometry(lefiGeometries *geometry) {$/;"	f
+readDEF	defRead.cpp	/^int PowerOpt::readDEF(const char* input) $/;"	f	class:PowerOpt
+readLEF	lefRead.cpp	/^int PowerOpt::readLEF(const char* input) {$/;"	f	class:PowerOpt
+reallocCB	defRead.cpp	/^void* reallocCB(void* name, size_t size) {$/;"	f
+reallocCB	lefRead.cpp	/^void* reallocCB(void* name, int size) {$/;"	f
+setDesignName	netlist.h	/^        void setDesignName(const char* n) { designName = n; }$/;"	f	class:PowerOpt::Netlist
+setDirection	netlist.h	/^        void setDirection(DirecType d) { direction = d; }$/;"	f	class:PowerOpt::Pin
+setDirection	stdlib.h	/^        void setDirection(DirecType d) { direction = d; }$/;"	f	class:PowerOpt::MacroPin
+setId	graph.h	/^        void setId(int i) { id = i; }$/;"	f	class:PowerOpt::Edge
+setId	graph.h	/^        void setId(int i) { id = i; }$/;"	f	class:PowerOpt::Graph
+setId	graph.h	/^        void setId(int i) { id = i; }$/;"	f	class:PowerOpt::HyperEdge
+setId	graph.h	/^        void setId(int i) { id = i; }$/;"	f	class:PowerOpt::Vertex
+setId	netlist.h	/^        void setId(int i) { id = i; }$/;"	f	class:PowerOpt::Gate
+setId	netlist.h	/^        void setId(int i) { id = i; }$/;"	f	class:PowerOpt::Net
+setId	netlist.h	/^        void setId(int i) { id = i; }$/;"	f	class:PowerOpt::Pad
+setId	netlist.h	/^        void setId(int i) { id = i; }$/;"	f	class:PowerOpt::Pin
+setId	stdlib.h	/^        void setId(int i) { id = i; }$/;"	f	class:PowerOpt::Macro
+setId	stdlib.h	/^        void setId(int i) { id = i; }$/;"	f	class:PowerOpt::MacroPin
+setMacro	netlist.h	/^        void setMacro(Macro* m) { macro = m; }        $/;"	f	class:PowerOpt::Gate
+setMacroType	stdlib.h	/^        void setMacroType(MacroType t) { type = t; }$/;"	f	class:PowerOpt::Macro
+setMasterGate	netlist.h	/^        void setMasterGate(Gate* g) { gate = g; }$/;"	f	class:PowerOpt::Pin
+setMasterPad	netlist.h	/^        void setMasterPad(Pad* p) { pad = p; }$/;"	f	class:PowerOpt::Pin
+setMasterType	netlist.h	/^        void setMasterType(InstType t) { mtype = t; }$/;"	f	class:PowerOpt::Pin
+setName	netlist.h	/^        void setName(const char* n) { name = n; }$/;"	f	class:PowerOpt::Gate
+setName	netlist.h	/^        void setName(const char* n) { name = n; }$/;"	f	class:PowerOpt::Net
+setName	netlist.h	/^        void setName(const char* n) { name = n; }$/;"	f	class:PowerOpt::Pin
+setName	netlist.h	/^        void setName(string n) { name = n; }$/;"	f	class:PowerOpt::Gate
+setName	netlist.h	/^        void setName(string n) { name = n; }$/;"	f	class:PowerOpt::Pad
+setName	netlist.h	/^        void setName(string n) { name = n; }$/;"	f	class:PowerOpt::Pin
+setName	stdlib.h	/^        void setName(const char* n) { name = n; }$/;"	f	class:PowerOpt::Macro
+setName	stdlib.h	/^        void setName(const char* n) { name = n; }$/;"	f	class:PowerOpt::MacroPin
+setName	stdlib.h	/^        void setName(string n) { name = n; }$/;"	f	class:PowerOpt::Macro
+setName	stdlib.h	/^        void setName(string n) { name = n; }$/;"	f	class:PowerOpt::MacroPin
+setNet	netlist.h	/^        void setNet(Net* n) { net = n; }$/;"	f	class:PowerOpt::Pin
+setPin	netlist.h	/^        void setPin(Pin* p) { pin = p; }$/;"	f	class:PowerOpt::Pad
+setPortName	netlist.h	/^        void setPortName(const char* n) { portName = n; }$/;"	f	class:PowerOpt::Pin
+setPortName	netlist.h	/^        void setPortName(string n) { portName = n; }$/;"	f	class:PowerOpt::Pin
+setSNetWireCbk	defRead.cpp	/^static int setSNetWireCbk = 0;$/;"	v	file:
+setSink	graph.h	/^        void setSink(Vertex* s) { sink = s; }$/;"	f	class:PowerOpt::Edge
+setSource	graph.h	/^        void setSource(Vertex* s) { source = s; }$/;"	f	class:PowerOpt::Edge
+setSource	graph.h	/^        void setSource(Vertex* v) { source = v; }$/;"	f	class:PowerOpt::HyperEdge
+setUseType	netlist.h	/^        void setUseType(UseType u) { use = u; }$/;"	f	class:PowerOpt::Net
+setUseType	netlist.h	/^        void setUseType(UseType u) { use = u; }$/;"	f	class:PowerOpt::Pin
+setUseType	stdlib.h	/^        void setUseType(UseType u) { use = u; }$/;"	f	class:PowerOpt::MacroPin
+sink	graph.h	/^        Vertex* sink;$/;"	m	class:PowerOpt::Edge
+sinks	graph.h	/^        vector<Vertex*> sinks;$/;"	m	class:PowerOpt::HyperEdge
+siteCB	lefRead.cpp	/^int siteCB(lefrCallbackType_e c, lefiSite* _site, lefiUserData) {$/;"	f
+snetf	defRead.cpp	/^int snetf(defrCallbackType_e c, defiNet* net, defiUserData ud) {$/;"	f
+snetpath	defRead.cpp	/^int snetpath(defrCallbackType_e c, defiNet* ppath, defiUserData ud) {$/;"	f
+snetwire	defRead.cpp	/^int snetwire(defrCallbackType_e c, defiNet* ppath, defiUserData ud) {$/;"	f
+source	graph.h	/^        Vertex* source;$/;"	m	class:PowerOpt::Edge
+source	graph.h	/^        Vertex* source;$/;"	m	class:PowerOpt::HyperEdge
+spacingBeginCB	lefRead.cpp	/^int spacingBeginCB(lefrCallbackType_e c, void*, lefiUserData){$/;"	f
+spacingCB	lefRead.cpp	/^int spacingCB(lefrCallbackType_e c, lefiSpacing* spacing, lefiUserData) {$/;"	f
+spacingEndCB	lefRead.cpp	/^int spacingEndCB(lefrCallbackType_e c, void*, lefiUserData){$/;"	f
+stdCellLib	global.h	27;"	d
+subnetNamef	defRead.cpp	/^int subnetNamef(defrCallbackType_e c, const char* subnetName, defiUserData ud) {$/;"	f
+terms	netlist.h	/^        vector<Pin*> terms;$/;"	m	class:PowerOpt::Net
+testDebugPrint	defRead.cpp	/^static int testDebugPrint = 0;  \/\/ test for ccr1488696$/;"	v	file:
+timingCB	lefRead.cpp	/^int timingCB(lefrCallbackType_e c, lefiTiming* timing, lefiUserData) {$/;"	f
+tname	defRead.cpp	/^int tname(defrCallbackType_e c, const char* string, defiUserData ud) {$/;"	f
+toDirecType	global.cpp	/^DirecType PowerOpt::toDirecType(const char* type)$/;"	f	class:PowerOpt
+toInstType	global.cpp	/^InstType PowerOpt::toInstType(const char* type)$/;"	f	class:PowerOpt
+toLogicType	global.cpp	/^LogicType PowerOpt::toLogicType(const char* type)$/;"	f	class:PowerOpt
+toMacroType	global.cpp	/^MacroType PowerOpt::toMacroType(const char* type)$/;"	f	class:PowerOpt
+toStr	graph.cpp	/^string toStr(InstType type)$/;"	f
+toUseType	global.cpp	/^UseType PowerOpt::toUseType(const char* type)$/;"	f	class:PowerOpt
+type	stdlib.h	/^        MacroType type ;$/;"	m	class:PowerOpt::Macro
+unUsedCB	defRead.cpp	/^int unUsedCB(defrCallbackType_e, void*, defiUserData) {$/;"	f
+units	defRead.cpp	/^int units(defrCallbackType_e c, double d, defiUserData ud) {$/;"	f
+unitsCB	lefRead.cpp	/^int unitsCB(lefrCallbackType_e c, lefiUnits* unit, lefiUserData) {$/;"	f
+use	netlist.h	/^        UseType use;$/;"	m	class:PowerOpt::Net
+use	netlist.h	/^        UseType use;$/;"	m	class:PowerOpt::Pin
+use	stdlib.h	/^        UseType use;$/;"	m	class:PowerOpt::MacroPin
+useMinSpacingCB	lefRead.cpp	/^int useMinSpacingCB(lefrCallbackType_e c, lefiUseMinSpacing* spacing,$/;"	f
+userData	defRead.cpp	/^void* userData;$/;"	v
+vers	defRead.cpp	/^int vers(defrCallbackType_e c, double d, defiUserData ud) {$/;"	f
+versStr	defRead.cpp	/^int versStr(defrCallbackType_e c, const char* versionName, defiUserData ud) {$/;"	f
+versionCB	lefRead.cpp	/^int versionCB(lefrCallbackType_e c, double num, lefiUserData) {$/;"	f
+versionStrCB	lefRead.cpp	/^int versionStrCB(lefrCallbackType_e c, const char* versionName, lefiUserData) {$/;"	f
+vertex2inst	graph.h	/^        HashMap<int,int> vertex2inst;$/;"	m	class:PowerOpt::Graph
+vertex2type	graph.h	/^        HashMap<int,InstType> vertex2type;$/;"	m	class:PowerOpt::Graph
+vertices	graph.h	/^        vector<Vertex*> vertices;$/;"	m	class:PowerOpt::Graph
+viaCB	lefRead.cpp	/^int viaCB(lefrCallbackType_e c, lefiVia* via, lefiUserData) {$/;"	f
+viaRuleCB	lefRead.cpp	/^int viaRuleCB(lefrCallbackType_e c, lefiViaRule* viaRule, lefiUserData) {$/;"	f
+warningCB	lefRead.cpp	/^void warningCB(const char* msg) {$/;"	f
